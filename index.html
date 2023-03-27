@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tally Count</title>
+        <link rel="stylesheet" href="./style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap" rel="stylesheet">
+        <script src="./script.js" defer></script>
+    </head>
+    <body>
+        <!--Header-->
+        <header class="header">
+            <h1 class="header_title">Tally Count</h1>
+        </header>
+
+        <!--Controls-->
+        <!-- <aside class="controls">
+            <label for="">
+                <span>Display</span>
+                    <select name="" id="">
+                        <option value="">Single</option>
+                        <option value="">Multiple</option>
+                    </select>
+            </label>
+
+            <label for="">
+                <span>Counter</span>
+                    <select name="" id="">
+                        <option value="">Counter 1</option>
+                        <option value="">Counter 2</option>
+                        <option value="">Counter 3</option>
+                    </select>
+            </label>
+            <button>Settings</button>
+        </aside> -->
+        
+        <!--Counter-->
+        <main class="counter">
+            <input readonly data-key="number" value="0" class="counter_value">
+            <div class="counter_actions" >
+                <button data-key="subtract" class="counter_button counter_button_first">-</button>
+                <button data-key="add" class="counter_button">+</button>
+            </div>
+        </main>
+
+        <footer class="footer">
+            Inspired by <a class="footer_link" href="https://tallycount.app">Tally Count</a> Note that this is merely a practice project for learning JavaScript.
+        </footer>
+    </body>
+</html>
